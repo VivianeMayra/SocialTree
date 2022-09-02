@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+
+body{
+    display: flex;
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    font-family: "Poppins";
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin:207px 621px 627px 617px;
+
+    
+}
+.elipse{
+    box-sizing: border-box;
+    border: 2px solid #BB99DD;
+    width: 213px;
+    height: 213px;
+    left: 612px;
+    top: 201px;
+    border-radius: 50%;
+   
+}
+.text{
+    display: inline;
+    margin: 15px;
+    text-align: center;
+}
+
+.container .totalLinks{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .link1 a{
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    margin: 0 10px 16px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--purple);
+    height: 49px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.container .link2 a{
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    margin: 0 5px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--purple);
+    height: 49px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.container .link3 a {
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    margin: 0 5px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--purple);
+    height: 49px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.container .link4 a{
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    margin: 0 5px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--purple);
+    height: 49px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+
